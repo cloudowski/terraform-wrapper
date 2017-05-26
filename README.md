@@ -5,5 +5,5 @@ It was written to be part of of Continuous Deployment pipelines (Infrastructure 
 
 # Configuration
 You control Terraform version in two ways
-  # With **TFVERSION** environment variable
-  # With **terraform.version** file placed in the same directory as **tfw** script (used only when env variable is unset)
+  * with **TFVERSION** environment variable
+  * with **terraform.version** file placed in the same directory as **tfw** script (used only when env variable is unset)
