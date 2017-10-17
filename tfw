@@ -6,7 +6,7 @@ BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 case $(uname) in
     Darwin) osfamily=darwin ;;
-    Linux) osfamily=darwin ;;
+    Linux) osfamily=linux ;;
     *) echo "Unsupported system" >&2; exit 1 ;;
 esac
 
